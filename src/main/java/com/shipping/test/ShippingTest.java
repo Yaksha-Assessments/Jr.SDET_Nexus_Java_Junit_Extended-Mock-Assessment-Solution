@@ -101,7 +101,7 @@ public class ShippingTest {
 
 	@After
 	public void lastEvery() {
-		
+		service = null;
 		System.out.println("After");
 	}
 
